@@ -12,7 +12,7 @@ class DemoViewController: ExpandingViewController {
   
   typealias ItemInfo = (imageName: String, title: String)
   private var cellsIsOpen = [Bool]()
-  private let items: [ItemInfo] = [("item0", "Boston"),("item1", "New York"),("item2", "San Francisco"),("item3", "Washington")]
+    private let items: [ItemInfo] = [("item0", "Rising Lyrics 1"),("item1", "Rising Lyrics 2"),("item2", " Rising Lyrics 3"),("item3", "Rising Lyrics 4")]
   
   @IBOutlet weak var pageLabel: UILabel!
 }
